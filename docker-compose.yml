@@ -12,6 +12,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress_user
       MYSQL_PASSWORD: wordpress_password
+      TZ: America/Sao_Paulo
 
   wordpress:
     image: wordpress:latest
@@ -22,6 +23,7 @@ services:
     restart: always
     volumes:
       - ./wordpress_data:/var/www/html/wp-content
+      - ./wordpress.ini:/usr/local/etc/php/conf.d/wordpress.ini
     environment:
       WORDPRESS_DB_HOST: database:3306
       WORDPRESS_DB_USER: wordpress_user
