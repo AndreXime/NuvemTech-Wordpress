@@ -6,7 +6,7 @@ Este comando vai instalar MariaDB e Wordpress e abrir o servidor local na sua re
 ```
 sudo docker compose up -d
 ```
-No navegador abra em https://localhost:8000
+No navegador abra em https://localhost:80
 
 ## Alteração personalizada
 O SuperUser do wordpress é:
