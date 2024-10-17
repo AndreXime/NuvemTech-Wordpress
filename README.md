@@ -14,7 +14,3 @@ O SuperUser do wordpress é:
 Nome: SysAdmin
 Senha: ZtSWnzWhYg
 ```
-Se quiser fazer uma alteração e seja salvo, faça:
-
-- Inicie normalmente, faça as alterações desejadas
-- Com o container rodando execute backup.sh, ou o copie comando dentro dele
