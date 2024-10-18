@@ -1,0 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(){ window.addEventListener("DOMContentLoaded", function(){
+	UAGBForms.init( {"block_id":"lgktn7fj","reCaptchaEnable":false,"reCaptchaType":"v3","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"abc@gmail.com","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Envio de formul\u00e1rio","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Preencha o captcha acima.","confirmationUrl":""}, '.uagb-block-lgktn7fj', 106 );
+});
+ });
